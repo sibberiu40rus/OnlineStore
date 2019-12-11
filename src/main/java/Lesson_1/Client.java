@@ -2,7 +2,8 @@ package Lesson_1;
 
 public class Client {
     public static void main(String[] args) {
-        Camera camera = new Camera();
+        Assistant assistant = new Assistant();
+        Camera camera = assistant.getCamera();
         camera.doPhoto();
     }
 }
